@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+   
+    tools:context="${relativePackage}.${activityClass}" xmlns:app="http://schemas.android.com/apk/res/com.example.atimage">
+
+	<com.example.atimage.ATImage 
+	    android:layout_width="200dip"
+	    android:layout_height="200dip"
+	    android:src="@drawable/ic_launcher"
+	    app:text="测试1111111111111111"
+	    android:background="#295782"/>
+    
+</RelativeLayout>
